@@ -1,0 +1,16 @@
+{
+  "name": "exerciseviii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^6.2.1",
+    "mocha": "^11.7.5"
+  }
+}
