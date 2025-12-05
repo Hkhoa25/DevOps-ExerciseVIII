@@ -7,3 +7,6 @@ node_modules/
 
 # Optional npm cache directory
 .npm
+
+# nyc test coverage directory
+.nyc_output/
