@@ -10,3 +10,4 @@ node_modules/
 
 # nyc test coverage directory
 .nyc_output/
+coverage/
