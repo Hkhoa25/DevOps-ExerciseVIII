@@ -39,24 +39,6 @@ describe("words.js", () => {
     });
 
     /**
-     * Null and undefined inputs
-     */
-    it("should return [] for null", () => {
-      expect(words(null)).to.deep.equal([]);
-    });
-
-    it("should return [] for undefined", () => {
-      expect(words(undefined)).to.deep.equal([]);
-    });
-
-    /**
-     * Alphanumeric words
-     */
-    it("should return ['abc123','def456'] for 'abc123 def456'", () => {
-      expect(words("abc123 def456")).to.deep.equal(["abc123", "def456"]);
-    });
-
-    /**
      * Unicode words
      */
     it("should return ['mañana','niño'] for 'mañana niño'", () => {

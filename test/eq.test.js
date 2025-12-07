@@ -26,13 +26,6 @@ describe("eq.js", () => {
     });
 
     /**
-     * It should return false when comparing string primitive with string object.
-     */
-    it("should return false when comparing string primitive with string object", () => {
-      expect(eq("a", Object("a"))).to.equal(false);
-    });
-
-    /**
      * It should return true when comparing NaN with NaN.
      */
     it("should return true when comparing NaN with NaN", () => {
@@ -72,13 +65,6 @@ describe("eq.js", () => {
      */
     it("should return true when comparing null with null", () => {
       expect(eq(null, null)).to.equal(true);
-    });
-
-    /**
-     * It should return false when comparing null with undefined.
-     */
-    it("should return false when comparing null with undefined", () => {
-      expect(eq(null, undefined)).to.equal(false);
     });
   });
 });

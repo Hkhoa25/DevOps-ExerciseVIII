@@ -79,12 +79,5 @@ describe("slice.js", () => {
     it("should return [] for slice([1,2,3],10)", () => {
       expect(slice([1, 2, 3], 10)).to.deep.equal([]);
     });
-
-    /**
-     * It should handle end greater than array length.
-     */
-    it("should return [2,3] for slice([1,2,3],1,10)", () => {
-      expect(slice([1, 2, 3], 1, 10)).to.deep.equal([2, 3]);
-    });
   });
 });

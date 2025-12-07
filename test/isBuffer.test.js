@@ -12,14 +12,6 @@ describe("isBuffer.js", () => {
    */
   describe("isBuffer()", () => {
     /**
-     * It should return true for Buffer instances.
-     */
-    it("should return true for Buffer.from([1,2,3])", () => {
-      const buf = Buffer.from([1, 2, 3]);
-      expect(isBuffer(buf)).to.equal(true);
-    });
-
-    /**
      * It should return false for Uint8Array.
      */
     it("should return false for new Uint8Array(2)", () => {

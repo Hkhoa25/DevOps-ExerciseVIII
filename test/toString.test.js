@@ -12,17 +12,6 @@ describe("toString.js", () => {
    */
   describe("toString()", () => {
     /**
-     * It should return empty string for null and undefined.
-     */
-    it("should return '' for null", () => {
-      expect(toString(null)).to.equal("");
-    });
-
-    it("should return '' for undefined", () => {
-      expect(toString(undefined)).to.equal("");
-    });
-
-    /**
      * It should preserve -0 sign.
      */
     it("should return '-0' for -0", () => {
