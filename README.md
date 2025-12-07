@@ -9,13 +9,15 @@ npm init -y
 
 npm install mocha chai --save-dev
 
-npm install mocha-lcov-reporter --save-dev
-
-npm install --save-dev mocha chai nyc coveralls
+npm install --save-dev c8 coveralls mocha-lcov-reporter
 
 ## Running Tests
 
 npm test
+
+## Running Coverage locally
+
+npm run coverage
 
 ## Running Coveralls
 

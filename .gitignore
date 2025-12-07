@@ -8,6 +8,12 @@ node_modules/
 # Optional npm cache directory
 .npm
 
-# nyc test coverage directory
-.nyc_output/
+# Coverage directory used by tools like istanbul
 coverage/
+
+# c8 test coverage directory
+.c8/
+
+# Logs
+logs/
+*.log
